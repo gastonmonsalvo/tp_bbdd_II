@@ -4,7 +4,6 @@ USE TiendaMusicaSimple;
     -- Hipotesis: Se tiene una tienda de musica , la cual realiza ventas a sus clientes
         -- Se cuenta con las entidades Categorias, Productos, Clientes, Ventas y Detalle
 
-
 CREATE TABLE Clientes (
     id_cliente INT PRIMARY KEY AUTO_INCREMENT,
     nombre VARCHAR(100) NOT NULL,
